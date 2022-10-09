@@ -1,0 +1,2 @@
+module Yubisuma_app {
+}
