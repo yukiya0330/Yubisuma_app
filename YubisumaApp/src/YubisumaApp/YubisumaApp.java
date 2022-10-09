@@ -66,7 +66,8 @@ public class YubisumaApp {
 			}else if(myFinger == 1 && botFinger == 2) {
 				System.out.println("-----------------------------------");
 				System.out.println("自分：1　相手：２");
-				System.out.println(" 0~3 までを選んでください");
+				System.out.println("!!!あなたの番です!!!");
+				System.out.println(" 0~3 で宣言してください");
 				int anser = sc.nextInt();
 				System.out.println(" 0~1 まで自分があげる指の数を選んでください");
 				int finger = sc.nextInt();
@@ -95,7 +96,8 @@ public class YubisumaApp {
 			}else if(myFinger == 2 && botFinger == 1) {
 				System.out.println("-----------------------------------");
 				System.out.println("自分：2　相手：1");
-				System.out.println(" 0~3 までを選んでください");
+				System.out.println("!!!あなたの番です!!!");
+				System.out.println(" 0~3 で宣言してください");
 				int anser = sc.nextInt();
 				System.out.println(" 0~2 まで自分があげる指の数を選んでください");
 				int finger = sc.nextInt();
